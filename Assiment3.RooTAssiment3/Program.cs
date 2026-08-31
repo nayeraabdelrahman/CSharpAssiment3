@@ -87,49 +87,6 @@
             #endregion
 
 
-            #region Question 12
-            {
-                string? reviewer = null;
-
-                Console.WriteLine(reviewer == null);
-            }
-            #endregion
-
-
-            #region Question 13
-            {
-                Book? book = null;
-
-                string? title = book?.Title;
-
-                Console.WriteLine(title);
-            }
-            #endregion
-
-
-            #region Question 14
-            {
-                Book? book = null;
-
-                string? title = book?.Title;
-
-                Console.WriteLine(title ?? "Untitled");
-
-                title ??= "Untitled";
-
-                Console.WriteLine(title);
-            }
-            #endregion
-            #region Question 15
-            {
-                string? name = "Ahmed";
-
-                string confirmedName = name!;
-
-                Console.WriteLine(confirmedName);
-            }
-            #endregion
-
 
 
 

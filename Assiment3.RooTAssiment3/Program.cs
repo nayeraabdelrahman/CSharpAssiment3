@@ -96,6 +96,17 @@
             #endregion
 
 
+            #region Question 13
+            {
+                Book? book = null;
+
+                string? title = book?.Title;
+
+                Console.WriteLine(title);
+            }
+            #endregion
+
+
 
 
 

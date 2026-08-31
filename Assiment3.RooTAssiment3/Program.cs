@@ -74,6 +74,18 @@
                 Console.WriteLine(newCopies);
             }
             #endregion
+            #region Question 11
+            {
+                int? year = null;
+
+                Console.WriteLine(year.HasValue);
+
+                year = 2023;
+
+                Console.WriteLine(year.Value);
+            }
+            #endregion
+
 
 
 

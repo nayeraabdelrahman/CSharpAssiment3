@@ -62,6 +62,20 @@
                 Console.WriteLine(pagesString.GetType());
             }
             #endregion
+            #region Question 10
+            {
+                int copies = 100;
+
+                object obj = copies;
+
+                int newCopies = (int)obj;
+
+                Console.WriteLine(obj);
+                Console.WriteLine(newCopies);
+            }
+            #endregion
+
+
 
 
 

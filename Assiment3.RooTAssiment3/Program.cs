@@ -107,6 +107,19 @@
             #endregion
 
 
+            #region Question 14
+            {
+                Book? book = null;
+
+                string? title = book?.Title;
+
+                Console.WriteLine(title ?? "Untitled");
+
+                title ??= "Untitled";
+
+                Console.WriteLine(title);
+            }
+            #endregion
 
 
 

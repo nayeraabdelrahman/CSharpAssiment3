@@ -87,6 +87,15 @@
             #endregion
 
 
+            #region Question 12
+            {
+                string? reviewer = null;
+
+                Console.WriteLine(reviewer == null);
+            }
+            #endregion
+
+
 
 
 

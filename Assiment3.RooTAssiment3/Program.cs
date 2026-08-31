@@ -120,7 +120,15 @@
                 Console.WriteLine(title);
             }
             #endregion
+            #region Question 15
+            {
+                string? name = "Ahmed";
 
+                string confirmedName = name!;
+
+                Console.WriteLine(confirmedName);
+            }
+            #endregion
 
 
 
